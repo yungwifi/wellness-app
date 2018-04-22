@@ -1,20 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import styled from 'styled-components'
 
-const Coffee = styled.div`
-width: 100px;
-height: 100px;
-background-image: src='https://image.flaticon.com/icons/svg/633/633652.svg';
-border: solid black 1px;`
+const Math = styled.div`
+display: flex;
+flex-direction: row;`
 
 class Counter extends Component {
     render() {
         return (
-            <Coffee >
-                Coffee
-            </Coffee>
-        )
+            <div>
+                <Math >
+                    <button> + </button>
+                    <br />
+                    <button> - </button>
+                </Math>
+            </div>
+        );
     }
 }
 
-export default Counter 
+export default Counter;

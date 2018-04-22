@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Counter from './Counter';
+import CounterList from './CounterList';
 
 const Header = styled.div`
 display: flex;
@@ -24,7 +24,7 @@ class HomeView extends Component {
                     <h1> Project Week Wellness Tracker </h1>
                     <h4> Track your coffee consumption, rest, and everything else during a busy week, </h4>
                 </Header>
-                <Counter />
+                <CounterList />
             </div>
         )
     }
