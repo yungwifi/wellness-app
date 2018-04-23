@@ -14,27 +14,34 @@ height: 100px;
 border: solid black 1px;
 display: flex;
 justify-content: center;
+flex-direction: column;
 align-items: center;
 margin: 10px auto;`
 
 class CounterList extends Component {
+
     render() {
         return (
             <Container >
                 <Items >
                     Coffee
+                    <Counter />
                 </Items>
                 <Items >
                     Rest
+                    <Counter />
                 </Items>
                 <Items >
                     Water
+                    <Counter />
                 </Items>
                 <Items >
                     Meals
+                    <Counter />
                 </Items>
                 <Items >
                     Breaks
+                    <Counter />
                 </Items>
             </Container>
         )
